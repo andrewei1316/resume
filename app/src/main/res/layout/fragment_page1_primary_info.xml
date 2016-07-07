@@ -1,0 +1,151 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".primaryInfo.Page1PrimaryInfo">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:layout_marginBottom="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="个人信息"
+                android:textSize="30sp"
+                android:gravity="center_horizontal"/>
+
+            <View
+                android:layout_width="160dp"
+                android:layout_height="1dp"
+                android:layout_gravity="center_horizontal"
+                android:background="#000000" />
+
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/textview_bg"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp"
+                android:shrinkColumns="1">
+                <TableRow android:paddingTop="10dp">
+                    <TextView
+                        android:text="姓名: "
+                        android:textSize="20sp"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:text="和树伟"
+                        android:paddingLeft="12dp"
+                        android:textSize="20sp"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:text="性别: "
+                        android:textSize="20sp"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:text="男"
+                        android:textSize="20sp"
+                        android:paddingLeft="12dp"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:text="籍贯: "
+                        android:textSize="20sp"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:text="山东省新泰市"
+                        android:textSize="20sp"
+                        android:paddingLeft="12dp"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:text="出生日期: "
+                        android:textSize="20sp"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:text="1993年5月1日"
+                        android:textSize="20sp"
+                        android:paddingLeft="12dp"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:text="现居住地: "
+                        android:textSize="20sp"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:text="南京"
+                        android:textSize="20sp"
+                        android:paddingLeft="12dp"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:text="政治面貌: "
+                        android:textSize="20sp"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:text="党员"
+                        android:textSize="20sp"
+                        android:paddingLeft="12dp"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:text="微信: "
+                        android:textSize="20sp"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:text="hsw1316"
+                        android:textSize="20sp"
+                        android:paddingLeft="12dp"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:text="手机: "
+                        android:textSize="20sp"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:autoLink="phone"
+                        android:textSize="20sp"
+                        android:paddingLeft="12dp"
+                        android:text="15205147866"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:text="邮箱: "
+                        android:textSize="20sp"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:autoLink="email"
+                        android:text="andrewei1316@gmail.com"
+                        android:textSize="20sp"
+                        android:paddingLeft="12dp"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:text="个人主页: "
+                        android:textSize="20sp"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:autoLink="web"
+                        android:textSize="20sp"
+                        android:paddingLeft="12dp"
+                        android:text="http://blog.andrewei.info"/>
+                </TableRow>
+            </TableLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"/>
+        </LinearLayout>
+    </FrameLayout>
+</ScrollView>

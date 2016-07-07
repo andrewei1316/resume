@@ -1,0 +1,48 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:layout_marginLeft="6dp"
+    android:layout_marginRight="6dp"
+    android:layout_marginBottom="20dp"
+    tools:context=".otherItem.ContentMain">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="56dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="欢迎使用"
+            android:textSize="30sp"
+            android:gravity="center_horizontal"/>
+
+        <View
+            android:layout_width="160dp"
+            android:layout_height="1dp"
+            android:layout_gravity="center_horizontal"
+            android:background="#000000" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="说明: 该APP是我人生中第一个APP, 如果在使用过程中对您的手机造成不必要的伤害还请您多多包涵^_^"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="目前完成的功能有: "/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/textview_bg"
+            android:text="@string/welcome_text"/>
+    </LinearLayout>
+</FrameLayout>

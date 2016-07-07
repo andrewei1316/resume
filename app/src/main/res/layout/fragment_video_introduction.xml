@@ -1,0 +1,62 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="info.andrewei.resume.otherItem.VideoIntroduction">
+
+    <LinearLayout
+        android:id="@+id/video_out_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:id="@+id/video_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/black">
+
+            <com.universalvideoview.UniversalVideoView
+                android:id="@+id/videoView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                app:uvv_autoRotation="true"
+                app:uvv_fitXY="false" />
+
+            <com.universalvideoview.UniversalMediaController
+                android:id="@+id/media_controller"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:uvv_scalable="true" />
+        </FrameLayout>
+
+        <LinearLayout
+            android:id="@+id/bottom_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/start"
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/uvv_green"
+                android:gravity="center"
+                android:text="开始" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="16sp"
+                android:text ="该视频为俞敏洪老师在“赢在中国”的即兴演讲\n演讲题目为《像树一样活着，有水的精神》\n让人深受启发，非常励志，非常有营养的鸡汤."
+                android:background="@color/uvv_gray" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>
+

@@ -1,0 +1,86 @@
+<ScrollView
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="info.andrewei.resume.awardsProject.Page3SelfEvaluation">
+
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:layout_marginLeft="6dp"
+    android:layout_marginRight="6dp"
+    android:layout_marginBottom="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="关于我"
+            android:textSize="30sp"
+            android:gravity="center_horizontal"/>
+
+        <View
+            android:layout_width="160dp"
+            android:layout_height="1dp"
+            android:layout_gravity="center_horizontal"
+            android:background="#000000" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/textview_bg"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:shrinkColumns="0">
+            <TableRow android:paddingTop="10dp">
+                <TextView
+                    android:drawableLeft="@drawable/ic_point"
+                    android:text="扎实的代码功底和算法基础"
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:text="我大学就做了两件事情，一件是学习学科知识，另外一件就是准备和参加ACM/ICPC的编程比赛，作为一名ACMer 我有很扎实的代码功底和算法基础。"
+                    android:paddingLeft="12dp"/>
+            </TableRow>
+            <TableRow android:paddingTop="10dp">
+                <TextView
+                    android:drawableLeft="@drawable/ic_point"
+                    android:text="吃苦耐劳"
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:text="为了实现目标愿意花费自己的所有的时间和精力，作为一名在大学之前从未接触过编程的孩子，如果想在ACM/ICPC的赛场上拿到一个好成绩，就必须付出比别人更多的努力。为此我在暑假、寒假、以及所有我没有课的时间都用来研究算法和刷题，刷题总数超过一千题。"
+                    android:paddingLeft="12dp"/>
+            </TableRow>
+            <TableRow android:paddingTop="10dp">
+                <TextView
+                    android:drawableLeft="@drawable/ic_point"
+                    android:text="专注"
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:text="专注于一件事情有始有终。大学中很多同学都慢慢堕落了，赖床、打游戏、各种出去耍。而我从进大学以来坚信“不忘初心，方得始终”，专注于学习和竞赛，避开外来事物的干扰，力求事事有始有终，追求进步和完美。"
+                    android:paddingLeft="12dp"/>
+            </TableRow>
+        </TableLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"/>
+    </LinearLayout>
+</FrameLayout>
+</ScrollView>
+
+

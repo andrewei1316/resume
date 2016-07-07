@@ -1,0 +1,118 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".awardsProject.Page2Project">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:layout_marginBottom="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="项目经历"
+                android:textSize="30sp"
+                android:gravity="center_horizontal"/>
+
+            <View
+                android:layout_width="160dp"
+                android:layout_height="1dp"
+                android:layout_gravity="center_horizontal"
+                android:background="#000000" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:text="程序设计能力评测系统"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="(2015/11——至今)"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/textview_bg"
+                android:text="项目介绍: 基于Django 的一个考试系统,支持多种语言的在线自动评测,实时反馈评测结果,支持题库分类,支持平时练习、考试,使用了rbac 权限控制系统。(GitHub 闭源项目)\n工作描述: 进行了产品的迭代更新\n1. 实现了题库分类, 以及题目的添加修改删除功能;\n2. 为题目添加了题解并实现了题解的添加修改删除;\n3. 添加了班级功能, 老师可以以一个班级为单位进行操作;\n4. 完善了系统的权限控制, 采用RBAC 权限控制系统细化权限;\n5. 完善了管理员界面, 更加方便的修改用户的权限;\n6. 修复了上一版本遗留下来的众多bug"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:text="题目打包程序"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="(2015/11——至今)"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/textview_bg"
+                android:text="项目介绍: 基于nw.js 的一个题目打包程序, 与上述系统配套使用, 可以一步一步引导出题人完成一道题目的创建 (托管地址:https://github.com/andrewei1316/ProblemPackApp) \n工作描述: 自行设计并实现了这个程序,自己的第一个 NW.JS 程序;"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:text="南京理工大学Online Judge"
+                android:layout_gravity="center_horizontal"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="(2016/4——至今)"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/textview_bg"
+                android:text="项目介绍: 基于 Django 的一个在线评测系统, 用于ACM 训练(GitHub 闭源项目)\n工作描述: 进行了项目的迭代更新\n1. 参与了数据库的设计和系统重构;\n2. 参与了系统爬虫的编写和测试;\n3. 参与了前端界面的设计和开发"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:text="工作票分析管理系统"
+                android:layout_gravity="center_horizontal"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="(2015/9——2015/10)"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/textview_bg"
+                android:text="项目介绍: 基于 springMVC 的学校J2EE 课程设计课题, 支持工作票的导入, 分析以及简单的检索和导出功能;( 托管地址:\nhttps://github.com/andrewei1316/ManageSystem)\n工作描述: 自行设计并实现了这个系统;"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"/>
+
+        </LinearLayout>
+    </FrameLayout>
+</ScrollView>

@@ -1,0 +1,87 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".awardsProject.Page1Awards">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:layout_marginBottom="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="获得的荣誉"
+                android:textSize="30sp"
+                android:gravity="center_horizontal"/>
+
+            <View
+                android:layout_width="160dp"
+                android:layout_height="1dp"
+                android:layout_gravity="center_horizontal"
+                android:background="#000000" />
+
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/textview_bg"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp"
+                android:shrinkColumns="1">
+
+                <TableRow android:gravity="center">
+                    <ImageView
+                        android:layout_width="90dp"
+                        android:layout_height="wrap_content"
+                        android:contentDescription="ACM/ICPC Logo"
+                        android:src="@drawable/icpc_logo"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="2015年ACM/ICPC长春赛区铜奖(40/200)\n2016年江苏省程序设计大赛特等奖(8/60)\n2016年南京理工大学校赛赛一等奖(亚军)" />
+                </TableRow>
+                <TableRow
+                    android:layout_marginTop="20dp"
+                    android:gravity="center">
+                    <ImageView
+                        android:layout_width="90dp"
+                        android:layout_height="wrap_content"
+                        android:contentDescription="lan_qiao Logo"
+                        android:src="@drawable/lan_qiao"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="2015年江苏省一等奖, 全国三等奖\n2016年江苏省一等奖, 全国三等奖" />
+                </TableRow>
+                <TableRow
+                    android:layout_marginTop="20dp"
+                    android:gravity="center">
+                    <ImageView
+                        android:layout_width="90dp"
+                        android:layout_height="wrap_content"
+                        android:contentDescription="ccf_asp_logo"
+                        android:src="@drawable/ccf_asp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="2014年总分320/500,占当批次全国前13.65%\n2015年总分400/500,占当批次全国前0.65%" />
+                </TableRow>
+            </TableLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"/>
+        </LinearLayout>
+    </FrameLayout>
+</ScrollView>
+
